@@ -10,44 +10,44 @@ My friend made a game about eating balls in python/pygame so I decided to spend 
 ## System Requirments
 
 **Required**
-1. linux
-2. GCC (if you want to build from source)
+1. linux or Win32
+2. GCC or MinGW  *
 
 *If you want to build from source code. Check releases for the exe.
 
-## Build Instructions (for linux)
+## Build Instructions
+**Win32**
 
+Open powershell and enter the following commands
 ``` 
 git clone https://github.com/oh-facts/Eating-balls-in-cpp.git
-```
-
-Navigate into it and open console.
-
-Run the following commands
-```
-git checkout linux
-``` 
-```
+cd Eating-balls-in-cpp
 mkdir build
-```
-```
 cd build
-```
-```
-cmake .. -G "Unix Makefiles"
-```
-```
+cmake .. -G "MinGW Makefiles"
 make all
+./Game
 ```
 
-You should have a Game file now.
+**Linux**
 
-If there are any errors.Stop making them.
+Open Console and enter the following commands
+``` 
+git clone https://github.com/oh-facts/Eating-balls-in-cpp.git
+cd Eating-balls-in-cpp
+mkdir build
+cd build
+cmake .. -G "Unix Makefiles"
+make all
+./Game
+```
 
-Double click on the game file or ```./Game```
 and you should be eating balls.
 
-**For Windows, check other branch**
+
+
+If there are any errors, please stop making them.
+
 
 cheers,
 
