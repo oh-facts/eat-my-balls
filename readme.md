@@ -39,7 +39,7 @@ make all
 Open Console and enter the following commands
 ``` 
 git clone https://github.com/oh-facts/eat-my-balls-in-cpp.git
-cd Eating-balls-in-cpp
+cd eat-my-balls-in-cpp
 mkdir build
 cd build
 cmake .. -G "Unix Makefiles"
