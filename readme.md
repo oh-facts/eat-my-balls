@@ -20,8 +20,13 @@ My friend made a game about eating balls in python/pygame so I decided to spend 
 
 Open powershell and enter the following commands
 ``` 
-git clone https://github.com/oh-facts/Eating-balls-in-cpp.git
-cd Eating-balls-in-cpp
+git clone https://github.com/oh-facts/eat-my-balls-in-cpp.git
+```
+
+Navigate inside the folder to the root directory (the one with the src files/vendor/res) and open powershell there
+
+Now do
+```
 mkdir build
 cd build
 cmake .. -G "MinGW Makefiles"
@@ -33,7 +38,7 @@ make all
 
 Open Console and enter the following commands
 ``` 
-git clone https://github.com/oh-facts/Eating-balls-in-cpp.git
+git clone https://github.com/oh-facts/eat-my-balls-in-cpp.git
 cd Eating-balls-in-cpp
 mkdir build
 cd build
