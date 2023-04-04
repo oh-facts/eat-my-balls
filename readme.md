@@ -12,6 +12,8 @@ My friend made a game about eating balls in python/pygame so I decided to spend 
 **Required**
 1. linux or Win32
 2. GCC or MinGW  *
+3. Cmake *
+4. Make *
 
 *If you want to build from source code. Check releases for the exe.
 
