@@ -14,4 +14,7 @@ hold on any longer all by myself. This is too overwhelming.
 
 In the summer hols I'll try fixing up Square spawning and try separating engine code from game code. I'll also try building the engine into a dll and making the game use it.
 
+Edit:
+I spent the next hour learning templates and specialized templates. Best cpp feature ever. Math and french test coming up. I don't know shit.
+
 */

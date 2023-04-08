@@ -4,7 +4,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window/Keyboard.hpp>
 #include <Input.hpp>
-#include <BallSpawner.hpp>
+#include <Spawner.hpp>
 #include <Player.hpp>
 #include <cmath>
 #include <Score.hpp>

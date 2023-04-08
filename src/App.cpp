@@ -10,7 +10,8 @@ void App::run()
 
 	sf::Clock clock;
 	Player player;
-	BallSpawner spawner;
+	Spawner<Item<sf::CircleShape>> ballSpawner(0.25f);
+	Spawner<Item<sf::RectangleShape>> squareSpawner(0.75);
 	Score score;
 
 	while (window.isOpen())
@@ -26,13 +27,14 @@ void App::run()
 
 		// logic
 		player.update(elapsed);
-		spawner.update(elapsed);
+		ballSpawner.update(elapsed);
+		squareSpawner.update(elapsed);
 
-		if(spawner.checkBallCollision(player))
+		if(ballSpawner.checkCollision(player))
 		{
 			score.increaseScore();
 		}
-		if(spawner.checkSquareCollision(player))
+		if(squareSpawner.checkCollision(player))
 		{
 			score.resetScore();
 		}
@@ -41,7 +43,8 @@ void App::run()
 		window.clear();
 
 		player.render(window);
-		spawner.render(window);
+		ballSpawner.render(window);
+		squareSpawner.render(window);	
 		score.render(window);
 
 		window.display();

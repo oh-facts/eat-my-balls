@@ -34,7 +34,7 @@ endif()
 find_package(SFML 2.5.1 COMPONENTS graphics window system REQUIRED)
 
 # Add executable target
-add_executable(Game src/main.cpp src/Input.cpp src/App.cpp src/Player.cpp src/Ball.cpp src/Square.cpp src/BallSpawner.cpp src/Score.cpp)
+add_executable(Game src/main.cpp src/Input.cpp src/App.cpp src/Player.cpp src/Score.cpp)
 
 if(WIN32)
 	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -mwindows")
