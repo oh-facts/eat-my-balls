@@ -13,6 +13,7 @@ private:
 public:
     Score();
     void increaseScore();
+    void resetScore();
     void render(sf::RenderWindow &);
 };
 

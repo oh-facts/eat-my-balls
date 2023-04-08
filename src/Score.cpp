@@ -20,6 +20,12 @@ void Score::increaseScore()
     text.setString(std::to_string(score));
 }
 
+void Score::resetScore()
+{
+    score = 0;
+    text.setString(std::to_string(score));
+}
+
 void Score::render(sf::RenderWindow &window)
 {
     window.draw(text);

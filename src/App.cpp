@@ -28,9 +28,13 @@ void App::run()
 		player.update(elapsed);
 		spawner.update(elapsed);
 
-		if(spawner.checkCollision(player))
+		if(spawner.checkBallCollision(player))
 		{
 			score.increaseScore();
+		}
+		if(spawner.checkSquareCollision(player))
+		{
+			score.resetScore();
 		}
 
 		// render
