@@ -1,6 +1,3 @@
-My friend made a game about eating balls in python/pygame so I decided to spend the first half of my Sunday making a clone but in C++ / SFML so that I could get better at C++ and SFML and eating balls.
-
-
 ## Controls
 
 1. W/D or arrow keys to move.
